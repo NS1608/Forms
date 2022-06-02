@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 45%;
+    margin: 10px 400px;
+    background-color: #f2f2f2;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.abc {
+    padding:5px 40px 5px 40px;
+}   
+nav{
+    background-color: #4caf84;
+    padding: 5px 10px 10px 30px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 7px;
+}
+input[type="submit"]{
+    background-color: #4caf84;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+input[type="submit"]:hover{
+    background-color:  #4daea1;
+}
